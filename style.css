@@ -1,0 +1,83 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  background-color: hsl(240deg 1.59% 12.35%);
+  display: flex;
+  border-radius: 8px;
+  padding: 48px;
+}
+
+#main .container .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+#main .container .profile p.name {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#main .container .profile p.location {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: hsl(75, 94%, 57%);
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+#main .container .profile q {
+  color: hsl(0deg 0% 98.82%);
+  font-weight: 100;
+  font-size: 12px;
+}
+
+#main .container .profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+#main .container .links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#main .container .links a {
+  width: 100%;
+  background-color: hsl(0deg 0.99% 19.8%);
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#main .container .links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
