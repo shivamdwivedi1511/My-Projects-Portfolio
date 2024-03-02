@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://shivam-dwivedi-links.netlify.app/)
+- Live Site URL: [Add live site URL here](https://shivam-dwivedi-project-portfolio.netlify.app/1.social%20link%20app/)
 
 ## My process
 
