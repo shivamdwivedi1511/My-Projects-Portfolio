@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Blog Preview Card</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="card">
+      <div class="container">
+        <section class="backdrop">
+          <img src="./assets/banner.avif" alt="logo" />
+        </section>
+        <section class="info">
+          <span class="chip">Learning</span>
+          <p class="date">Aug 13, 2018</p>
+          <a
+            href="https://medium.com/@shivamdwivedi1511/a-short-note-to-promises-in-javascript-9a6cf29b3dea"
+            class="title"
+            target="_blank"
+            >A Short-Note to Promises in JavaScript</a
+          >
+          <p class="desc">
+            Promises in JavaScript simplify handling asynchronous tasks,
+            providing a cleaner and more readable code structure.
+          </p>
+          <div class="avatar">
+            <img src="./assets/thumbnail.jpeg" alt="profile" />
+            <span class="name">shivam dwivedi</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
