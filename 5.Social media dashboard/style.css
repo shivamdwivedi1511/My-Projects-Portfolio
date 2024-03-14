@@ -76,8 +76,8 @@ header .container .mode span {
 }
 
 .media {
-    /* position: absolute; */
-    margin: -5% 0;
+  /* position: absolute; */
+  margin: -5% 0;
 }
 .main-media {
   display: flex;
@@ -120,25 +120,94 @@ header .container .mode span {
   text-align: center;
 }
 
-.card .count-main .text{
-    text-transform: uppercase;
-    white-space: 1px;
-    color: var(--dark-grayish-blue-text);
-    letter-spacing: 3px;
-    font-weight: 200;
-    margin-bottom: 24px;
+.card .count-main .text {
+  text-transform: uppercase;
+  white-space: 1px;
+  color: var(--dark-grayish-blue-text);
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin-bottom: 24px;
 }
 
-.facebook{
-    border-color: var(--facebook);
+.facebook {
+  border-color: var(--facebook);
 }
-.twitter{
-    border-color: var(--twitter);
+.twitter {
+  border-color: var(--twitter);
 }
 
-.instagram{
-    border-image-source: var(--instagram);
+.instagram {
+  border-image-source: var(--instagram);
 }
-.youtube{
-    border-color: var(--youtube);
+.youtube {
+  border-color: var(--youtube);
+}
+
+.overview-media {
+  margin-top: 48px;
+}
+
+.overview-media h2 {
+  color: var(--dark-grayish-blue-text);
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.overview-media .list {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.overview-media .list .card-small {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 20%;
+  background-color: var(--light-grayish-blue-card-bg);
+  border-radius: 8px;
+}
+
+.overview-media .list .card-small .page-view, .overview-media .list .card-small .page-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.overview-media .list .card-small .page-stats .subheading {
+    color: var(--very-dark-blue-text);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.green{
+    color: var(--lime-green);
+}
+.green::before{
+    content: '';
+    background: url('./assets/icon-up.svg');
+    height: 8px;
+    width: 16px;
+    margin-right: 8px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.red{
+    color: var(--bright-red);
+}
+.red::before{
+    content: '';
+    background: url('./assets/icon-down.svg');
+    height: 8px;
+    width: 16px;
+    margin-right: 8px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
