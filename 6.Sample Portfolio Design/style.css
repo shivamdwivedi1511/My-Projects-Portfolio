@@ -79,3 +79,36 @@ nav h5:hover{
     width: 100%;
     margin-bottom: 16px;
 }
+
+@media (max-width:379px) {
+    main{
+        grid-template-rows: 10% 25% 50%;
+        width: 90%;
+    }
+    
+    nav h5{
+       display: none;
+    }
+    
+    #info{
+        width: 100%;
+        font-size: 4vw;
+    }
+    
+    #work-details #tabs{
+        gap: 0;
+        font-size: 3vw;
+        margin-bottom: 1em;
+    }
+    
+    
+    #work-details .image-container{
+        grid-template-columns: 100%;
+        border-color: transparent;
+    }
+    #work-details .image-container img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+}
