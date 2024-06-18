@@ -173,6 +173,7 @@ header .container .mode span {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  text-transform: capitalize;
 }
 
 
