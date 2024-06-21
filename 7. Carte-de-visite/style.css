@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  background-color: #ededed;
+  display: flex;
+}
+nav {
+  width: 15%;
+  position: relative;
+  height: 100%;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+nav h1 {
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  position: absolute;
+  rotate: -90deg;
+  top: 50%;
+  text-wrap: nowrap;
+}
+
+#content {
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+#content::-webkit-scrollbar {
+  height: 8px;
+  background-color: transparent;
+}
+#content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 165, 0, 0.4);
+  border-radius: 100px;
+}
+#info {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0 40px;
+}
+
+#info h1 {
+  /* font-size: 2.5vw; */
+}
+
+#info p {
+  /* font-size: 1.3vw; */
+}
+
+#content .card {
+  height: 95%;
+  flex-shrink: 0;
+  width: 380px;
+  background: url("https://images.unsplash.com/photo-1500239038240-9b3b8bac73c3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 8vw;
+  box-shadow: rgba(255, 165, 0, 0.4) 5px 5px, rgba(255, 165, 0, 0.3) 10px 10px,
+    rgba(255, 165, 0, 0.2) 15px 15px, rgba(255, 165, 0, 0.1) 20px 20px,
+    rgba(255, 165, 0, 0.05) 25px 25px;
+}
+#content .card:nth-child(2n) {
+  background: url("https://images.unsplash.com/photo-1524055988636-436cfa46e59e?q=80&w=2741&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+#content .card .container {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#content .card .container h1 {
+  font-size: 2.5vw;
+}
