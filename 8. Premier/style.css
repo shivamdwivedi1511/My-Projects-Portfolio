@@ -170,6 +170,7 @@ nav i{
 #modals{
     height: 15vw;
     display: flex;
+    overflow: hidden;
 }
 
 #modals .container{
@@ -198,3 +199,63 @@ nav i{
         transform: translateX(-100%);
     }
 }
+
+
+#modal-desc{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vw;
+}
+
+#modal-desc > div{
+    width: 48%;
+    height: 100%;
+}
+
+#modal-desc img{
+    width: 100%;
+}
+
+#modal-desc #part1{
+    height: 100%;
+}
+#modal-desc #part1 img{ 
+    height: 100%;
+    object-fit: cover;
+}
+
+#modal-desc #part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    /* height: 100%; */
+}
+
+#modal-desc #part2 img{
+    height: 70%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#modal-desc #part2 .desc{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#modal-desc #part2 .desc h2{
+    width: 30%;
+    flex-shrink: 0;
+    font-size: 1.6vw;
+}
+
+#modal-desc #part2 .desc p{
+    font-size: 1.2vw;
+}
+
+
